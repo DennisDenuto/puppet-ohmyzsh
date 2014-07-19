@@ -6,8 +6,8 @@
 class ohmyzsh {
   $home = "/Users/${::boxen_user}"
 
-  repository { 'robbyrussell/oh-my-zsh':
-    source => 'robbyrussell/oh-my-zsh',
+  repository { 'DennisDenuto/oh-my-zsh':
+    source => 'DennisDenuto/oh-my-zsh',
     path   => "${home}/.oh-my-zsh"
   }
 }
